@@ -23,7 +23,8 @@ module.exports = {
     },
     fontFamily:{
       'blackHan': ['Black Han Sans', 'sans-serif'],
-      'openSans': ['Open Sans', 'sans-serif']
+      'openSans': ['Open Sans', 'sans-serif'],
+      'roboto': ['Roboto', 'sans-serif']
     }
   },
   plugins: [],

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans&display=swap');
+/* google fonts imports */
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans&family=Roboto:wght@400;500;700;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -37,5 +38,8 @@
 
   .btn-black {
     @apply bg-black text-white;
+  }
+  .btn-blue {
+    @apply bg-primary text-white w-full sm:w-96;
   }
 }

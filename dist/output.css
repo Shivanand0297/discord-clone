@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Open+Sans&family=Roboto:wght@400;500;700;900&display=swap');
 
-/*
-! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
-*/
+/* google fonts imports */
+
+/* ! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -664,6 +664,20 @@ body{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.btn-blue{
+  width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(64 78 237 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px){
+  .btn-blue{
+    width: 24rem;
+  }
+}
+
 .absolute{
   position: absolute;
 }
@@ -684,6 +698,14 @@ body{
   bottom: 0px;
 }
 
+.top-0{
+  top: 0px;
+}
+
+.-top-10{
+  top: -2.5rem;
+}
+
 .z-0{
   z-index: 0;
 }
@@ -692,13 +714,19 @@ body{
   z-index: 10;
 }
 
-.mx-0{
-  margin-left: 0px;
-  margin-right: 0px;
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.mt-5{
-  margin-top: 1.25rem;
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mt-8{
@@ -733,12 +761,12 @@ body{
   flex: 2 2 0%;
 }
 
-.flex-row{
-  flex-direction: row;
-}
-
 .flex-col{
   flex-direction: column;
+}
+
+.flex-col-reverse{
+  flex-direction: column-reverse;
 }
 
 .items-start{
@@ -753,6 +781,10 @@ body{
   justify-content: flex-start;
 }
 
+.justify-center{
+  justify-content: center;
+}
+
 .justify-between{
   justify-content: space-between;
 }
@@ -763,6 +795,10 @@ body{
 
 .gap-5{
   gap: 1.25rem;
+}
+
+.gap-7{
+  gap: 1.75rem;
 }
 
 .gap-x-10{
@@ -780,13 +816,13 @@ body{
        column-gap: 1.25rem;
 }
 
-.gap-x-7{
-  -moz-column-gap: 1.75rem;
-       column-gap: 1.75rem;
-}
-
 .overflow-x-hidden{
   overflow-x: hidden;
+}
+
+.bg-\[\#f6f6f6\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 246 246 / var(--tw-bg-opacity));
 }
 
 .bg-primary{
@@ -811,24 +847,8 @@ body{
   background-position: center;
 }
 
-.py-6{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.py-32{
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.p-4{
+  padding: 1rem;
 }
 
 .px-4{
@@ -836,16 +856,39 @@ body{
   padding-right: 1rem;
 }
 
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pt-14{
   padding-top: 3.5rem;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .text-start{
   text-align: start;
 }
 
-.font-blackHan{
-  font-family: Black Han Sans, sans-serif;
+.font-roboto{
+  font-family: Roboto, sans-serif;
+}
+
+.font-openSans{
+  font-family: Open Sans, sans-serif;
 }
 
 .text-3xl{
@@ -858,67 +901,35 @@ body{
   line-height: 1.25rem;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.font-extrabold{
-  font-weight: 800;
-}
-
-.font-normal{
-  font-weight: 400;
 }
 
 .font-bold{
   font-weight: 700;
 }
 
-.leading-5{
-  line-height: 1.25rem;
+.uppercase{
+  text-transform: uppercase;
 }
 
 .leading-8{
   line-height: 2rem;
 }
 
-.leading-10{
-  line-height: 2.5rem;
-}
-
-.leading-loose{
-  line-height: 2;
-}
-
-.leading-\[3\.5rem\]{
-  line-height: 3.5rem;
-}
-
-.leading-\[58px\]{
-  line-height: 58px;
-}
-
-.leading-\[80px\]{
-  line-height: 80px;
-}
-
-.leading-\[12\]{
-  line-height: 12;
-}
-
 .tracking-widest{
   letter-spacing: 0.1em;
 }
 
-.text-white{
+.text-black{
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(35 39 42 / var(--tw-text-opacity));
+}
+
+.text-gray-700{
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
 .text-gray-800{
@@ -926,9 +937,9 @@ body{
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
-.text-gray-700{
+.text-white{
   --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 /* base layer style */
@@ -938,10 +949,6 @@ body{
 @media (min-width: 640px){
   .sm\:-left-96{
     left: -24rem;
-  }
-
-  .sm\:flex-col{
-    flex-direction: column;
   }
 
   .sm\:text-2xl{
@@ -971,9 +978,8 @@ body{
     flex-direction: row;
   }
 
-  .md\:py-20{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  .md\:flex-row-reverse{
+    flex-direction: row-reverse;
   }
 
   .md\:px-10{
@@ -981,18 +987,23 @@ body{
     padding-right: 2.5rem;
   }
 
-  .md\:pt-20{
+  .md\:py-20{
     padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
-  .md\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
+  .md\:pt-20{
+    padding-top: 5rem;
   }
 
   .md\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .md\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .md\:text-base{
@@ -1043,14 +1054,14 @@ body{
     text-align: center;
   }
 
-  .lg\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
   .lg\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -1067,14 +1078,18 @@ body{
     display: none;
   }
 
-  .xl\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+  .xl\:flex-1{
+    flex: 1 1 0%;
   }
 
   .xl\:text-5xl{
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .xl\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .xl\:leading-8{
