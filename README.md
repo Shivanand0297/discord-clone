@@ -7,7 +7,7 @@
 
   <p align="center">
     <br />
-    <a href="https://shiva-discord-clone.netlify.app/">Live Link</a>
+    <a href="https://shivanand10-discord-clone.netlify.app/">Live Link</a>
   </p>
 </div>
 
@@ -124,6 +124,6 @@ For this project I took around `2 Days` to complete it. The major portion of my 
 
 <!-- Project screenshot -->
 
-[project-url]: https://shiva-discord-clone.netlify.app/
+[project-url]: https://shivanand10-discord-clone.netlify.app/
 
 [source-code]: https://github.com/Shivanand0297/discord-clone
