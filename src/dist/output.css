@@ -833,6 +833,10 @@ body{
   height: 100%;
 }
 
+.h-\[120vh\]{
+  height: 120vh;
+}
+
 .w-4\/5{
   width: 80%;
 }
@@ -1199,6 +1203,10 @@ body{
 
   .md\:h-\[75vh\]{
     height: 75vh;
+  }
+
+  .md\:h-\[55vh\]{
+    height: 55vh;
   }
 
   .md\:flex-row{
