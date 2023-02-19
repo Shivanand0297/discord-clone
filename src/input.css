@@ -25,7 +25,7 @@
   }
 
   .btn-sm {
-    @apply py-2 px-4 bg-white text-black text-base font-medium rounded-3xl hover:text-primary hover:shadow-xl hover:shadow-black/30 transition duration-300;
+    @apply py-2 px-4 bg-white text-black text-base font-medium rounded-3xl hover:text-primary hover:shadow-lg hover:shadow-black/30 transition duration-300;
   }
 
   .btn {
