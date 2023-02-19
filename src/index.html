@@ -16,7 +16,7 @@
     <!-- Header -->
     <header class="bg-primary relative">
       <!-- logo -->
-      <div class="flex justify-between items-center container py-6">
+      <div class="flex justify-between items-center container py-6 px-4">
         <svg width="124" height="34" viewBox="0 0 124 34" class="logo-3oeRIY">
           <g fill="currentColor">
             <path
@@ -63,13 +63,13 @@
 
         <!-- login button -->
         <div class="flex items-center gap-x-5">
-          <button class="btn-sm">Open Discord</button>
+          <button class="btn-sm hidden sm:block">Open Discord</button>
           <i class="fa-solid fa-bars fa-xl text-white block lg:hidden cursor-pointer" id="openMenu"></i>
         </div>
       </div>
 
       <!-- mobile menu -->
-      <div class="hidden fixed top-0 right-0 px-6 pt-8 pb-32 bg-white z-50 text-black w-1/2 h-full rounded-l-md transition-all duration-300 ease-in-out"
+      <div class="hidden fixed top-0 right-0 px-6 pt-8 pb-32 bg-white z-50 text-black w-4/5 sm:w-1/2 h-full rounded-l-md transition-all duration-300 ease-in-out"
             id="mobileMenu"
       >
         <div class="flex items-center justify-between">
@@ -133,12 +133,12 @@
       <!-- hero section -->
       <section class="relative bg-primary bg-hero-background bg-center bg-cover overflow-x-hidden" >
         <!-- strow svg -->
-        <img src="./assets/1.svg" alt="mock" class="absolute bottom-0 -right-96 md:-right-[144px] lg:-right-[350px] z-0" >
+        <img src="./assets/1.svg" alt="mock" class="absolute bottom-0 -right-[430px] md:-right-[144px] lg:-right-[350px] z-0" >
         <img src="./assets/2.svg" alt="mock" class="absolute bottom-0 -left-10 sm:-left-96 md:-left-full lg:w-[50%] lg:-left-[355px] z-0" >
 
-        <div class="content container mx-auto pt-14 md:pt-20 h-[95vh] md:h-[80vh] md:w-3/4 lg:w-full flex flex-col items-start lg:items-center justify-start gap-10">
+        <div class="content container mx-auto pt-6 sm:pt-14 md:pt-20 h-[120vh] md:h-[115vh] lg:h-[80vh] lg:w-full flex flex-col items-start lg:items-center justify-start gap-10">
           <h1 class="text-3xl md:text-6xl z-10 tracking-widest">IMAGINE A PLACE...</h1>
-          <p class="font-bold font-roboto text-sm lg:text-lg xl:text-xl xl:leading-8 text-start lg:text-center z-10 w-[60%] lg:w-full">...where you can belong to a school club, a gaming group, or a worldwide art community. <br> Where just you and a handful of friends can spend time together. <br> A place that makes it easy to talk every day and hang out more often.</p>
+          <p class="font-normal font-roboto text-sm lg:text-lg xl:text-xl xl:leading-8 text-start lg:text-center z-10 w-full sm:w-[60%] lg:w-full">...where you can belong to a school club, a gaming group, or a worldwide art community. <br> Where just you and a handful of friends can spend time together. <br> A place that makes it easy to talk every day and hang out more often.</p>
 
           <div class="flex flex-col lg:flex-row items-center gap-5 z-10">
             <button class="btn btn-white flex items-center xl:hidden gap-x-2">
